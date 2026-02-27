@@ -1,4 +1,4 @@
-# 🐾 Crónicas Peludas: Las Aventuras de Chop, Dana y Nala
+# 🐾 Crónicas Bandidas: Las Aventuras de Chop, Dana y Nala
 
 Este es un libro infantil interactivo desarrollado con **HTML, CSS y JavaScript**. Cuenta las historias ficticias y gamberras de mis tres mascotas.
 
