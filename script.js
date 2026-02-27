@@ -499,6 +499,74 @@ Mientras subían al Seat Ibiza para marcharse, los niños los vieron alejarse co
 —¡Nunca olvidaremos este día! —gritaron Javi y Salva, mientras Chop miraba por el retrovisor con aire de comandante orgulloso.
 Y así, el colegio nunca volvió a ver una visita como la de Chop, Nala y Dana. ❤️🐾
 `
+    },
+    {
+        id: 9,
+        titulo: "La excursión sorpresa con la 'prima' de Nala 🐾",
+        personajePrincipal: "Nala",
+        imagen: "ruta/de/tu/imagen1.jpg", // Cambia esto por el nombre de tu archivo
+        texto: `La mañana olía a pino, a tierra mojada y, sobre todo, a las salchichas de pavo que Chop había escondido bajo el asiento del conductor "por si pinchábamos una rueda". El Seat Ibiza subía por la carretera del monte con una soltura envidiable, mientras Chop sacaba la lengua por la ventanilla para calcular la aerodinámica.
+
+—¡Ya casi llegamos! —ladró Chop, dando un volantazo para esquivar un bache—. ¡Siento el olor a libertad... y a barbacoa a lo lejos!
+
+En el asiento de atrás, Dana ni se inmutó. Tenía el hocico apoyado en una manta y los ojos cerrados.
+
+[ 💤 DANA: MODO VIGILANCIA ZEN ] > "Yo no veo el paisaje, pero oigo cómo cruje la caja de cambios, Chop. Como rompas el coche, dormiremos en el transportín hasta 2030", pensaba la veterana.
+
+De repente, al aparcar bajo una encina, algo se movió. Una sombra veloz cruzó el capó del coche. Nala, que hasta ese momento estaba en Modo Cobaya observando una mosca, sufrió una transformación instantánea. Sus pupilas se tragaron el color de sus ojos y su cola se infló como un plumero.
+
+[ 🐿️ NALA: MODO ARDILLA NIVEL DIOS ]
+
+—¡UNA INTRUSA! ¡UNA IMITADORA! —maulló Nala, saliendo por el hueco de la ventana como un muelle—. ¡Lleva mi traje, pero tiene la cola más despeinada! ¡A las armas!
+
+La ardilla del monte, una profesional de las acrobacias llamada "Cascarrabias", miró a Nala desde una rama baja con total indiferencia. Dio un salto, le robó un trozo de corteza y le lanzó una piña pequeña que rebotó justo en la nariz de Chop, que acababa de bajar del coche.
+
+—¡Oye! —protestó Chop— ¡Eso no es una salchicha! ¡Nala, intercepta a esa peluda!
+
+Nala empezó a correr en círculos alrededor del árbol a una velocidad que desafiaba las leyes de la física, mientras la ardilla la guiaba en una persecución de dibujos animados. Subían, bajaban y saltaban de roca en roca. Chop, intentando ayudar, se puso a escarbar en la base del árbol pensando que quizás la ardilla guardaba un tesoro de embutidos allí abajo.
+
+El caos terminó cuando Dana, con la parsimonia de quien ha visto mil batallas, soltó un único y profundo ladrido de "abuela cansada".
+
+—¡A VER, YA ESTÁ BIEN! —pareció decir—. Nala, deja de hacer el ridículo, es una ardilla de verdad, tú solo eres una gata con crisis de identidad. Y Chop, deja de comer tierra, que luego vomitas en las alfombras nuevas.
+
+La ardilla, impresionada por la autoridad de la perrita mayor, le lanzó una última mirada de respeto y desapareció entre las copas de los pinos. Nala volvió poco a poco a su Modo Cobaya, jadeando y con una hoja pegada en la oreja, mientras Chop decidía que, después de tanta adrenalina, lo mejor era abrir el maletero y empezar el picnic.`
+    },
+    {
+        id: 10,
+        titulo: "Misión Imposible: El Aroma del Pata Negra 🥓",
+        personajePrincipal: "Todos",
+        imagen: "ruta/de/tu/imagen1.jpg", // Cambia esto por el nombre de tu archivo
+        texto: `El aire de la cocina estaba viciado. No por falta de ventilación, sino por un olor que paralizaría el corazón de cualquier valiente: un plato de jamón recién cortado reposaba, olvidado por los humanos, en lo más alto de la encimera de granito.
+
+Chop estaba sentado en el suelo, con la cabeza inclinada 45 grados y una gota de saliva desafiando la gravedad en la comisura de su boca.
+
+[ 🚨 CHOP-ALERTA: NIVEL CRÍTICO ] > "Mis cálculos indican que está a 90 centímetros de altura. Si salto, llego. Pero si salto, tiro el plato y el estruendo despertará hasta a los vecinos del quinto", pensaba Chop con mente de ingeniero.
+
+—Necesitamos una unidad de despliegue rápido —susurró Chop, mirando hacia la estantería de los libros.
+
+De pronto, un borrón gris cayó desde lo alto de la nevera. Nala había olido el curado desde la otra punta de la casa y ya no era una gata; era un proyectil.
+
+[ 🐿️ NALA: MODO ARDILLA - ACTIVACIÓN TÁCTICA ]
+
+—Yo subo, yo lo empujo, tú lo recibes —maulló Nala, con los ojos como platos de café—. Pero me quedo con las partes que tengan más grasita. ¡Es el trato!
+
+Justo cuando Nala se preparaba para el gran salto, un sonido de "clac-clac-clac" de uñas sobre el suelo anunció la llegada de la ley. Dana apareció en la cocina, caminando en zigzag porque acababa de despertarse y no sabía si estaba en la cocina o en el jardín.
+
+—Ni lo intentéis —gruñó Dana con voz ronca—. Mis ojos no ven el jamón, pero mi nariz dice que ese plato está demasiado cerca del borde. Como caiga, la humana culpará al que tenga la cara más manchada... y todos sabemos que ese siempre es Chop.
+
+—¡Es un sacrificio que estoy dispuesto a aceptar! —ladró Chop bajito, animando a Nala con la pata.
+
+Nala saltó. Fue un movimiento elegante, digno de una ninja. Aterrizó en la encimera sin hacer ni un ruido. Estaba a milímetros de la gloria. Estiró la patita para enganchar la primera loncha cuando, de repente, la puerta del salón se abrió.
+
+—¡¿PERO QUÉ HACÉIS AHÍ?! —gritó la humana.
+
+Reacción en cadena: 1. Nala pasó de Modo Ardilla a Modo Invisible (se fundió con las sombras de la cocina en un parpadeo).
+
+2. Chop, que no podía huir tan rápido, decidió que la mejor defensa era un buen ataque: se tumbó bocarriba pidiendo mimos con cara de "yo pasaba por aquí buscando mi pelota".
+
+3. Dana, la más lista, simplemente se dio la vuelta y se fue hacia su cama como si fuera sonámbula, fingiendo que ella no formaba parte de esa banda de delincuentes.
+
+El jamón se quedó en la encimera, pero Chop juró que esa noche soñaría con el Seat Ibiza conduciendo directamente hacia una fábrica de embutidos.`
     }
 ];
 
