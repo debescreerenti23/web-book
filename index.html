@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Las Increíbles aventuras de Chop, Nala y Dana</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="portada-libro">
+        <div class="contenedor-portada">
+        <img src="images/cover.png" alt="Portada de las aventuras" id="imagen-portada">
+        <p>Estas mascotas son muy traviesas 🐾🐶🐱</p>
+        <button onclick="abrirLibro()">Empezar a leer 🐾</button>
+        </div>
+    </div>
+
+    <header>
+        <h1>Las aventuras de Chop, Nala y Dana</h1>
+        <nav id="menu-capitulos">
+            </nav>
+    </header>
+
+    <main id="lector-libro">
+        <div id="contenido-capitulo">
+            <h2>Selecciona una aventura para empezar</h2>
+            <p>Haz clic en los números de arriba.</p>
+        </div>
+    </main>
+
+    <section id="indice-personajes">
+        <h2 class="titulo-seccion">🐾 Quién es quién en la vida real</h2>
+        <div class="contenedor-fichas">
+            <div class="ficha">
+                <div class="foto-real" style="background-image: url('img/chop_real.jpg');"></div>
+                <h3>Chop</h3>
+                <p><strong>Raza:</strong> El conductor del Ibiza</p>
+                <p><strong>Habilidad:</strong> Oler salchichas a 3km.</p>
+                <p><em>"Si tiene ruedas y motor, Chop es el mejor."</em></p>
+            </div>
+            <div class="ficha">
+                <div class="foto-real" style="background-image: url('img/dana_real.jpg');"></div>
+                <h3>Dana</h3>
+                <p><strong>Raza:</strong> La Jefa Sabia</p>
+                <p><strong>Habilidad:</strong> Dormir en cualquier sitio.</p>
+                <p><em>"No me molestes, estoy dominando el mundo... mañana."</em></p>
+            </div>
+            <div class="ficha">
+                <div class="foto-real" style="background-image: url('img/nala_real.jpg');"></div>
+                <h3>Nala (Taken)</h3>
+                <p><strong>Raza:</strong> Gata-Ardilla-Coballa</p>
+                <p><strong>Habilidad:</strong> Desaparecer y hacer parkour.</p>
+                <p><em>"Ahora me ves, ahora soy una coballa."</em></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
