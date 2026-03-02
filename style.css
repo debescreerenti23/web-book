@@ -183,3 +183,33 @@ body {
         width: 90%;
     }
 }
+
+/* ==========================================
+   BOTÓN "EMPEZAR A LEER" (PORTADA)
+   ========================================== */
+#boton-empezar {
+    background: #d84315; /* Naranja rojizo para que resalte */
+    color: white;
+    border: none;
+    padding: clamp(15px, 4vw, 20px) clamp(30px, 8vw, 50px); /* Tamaño fluido */
+    font-family: var(--fuente-titulo);
+    font-size: clamp(1.2rem, 5vw, 1.8rem);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 6px 0px #872a0f; /* Sombra sólida para efecto 3D */
+    transition: all 0.2s ease;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#boton-empezar:hover {
+    background: #ff5722;
+    transform: translateY(-3px);
+    box-shadow: 0 9px 0px #872a0f;
+}
+
+#boton-empezar:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0px #872a0f; /* Efecto de "botón pulsado" */
+}
