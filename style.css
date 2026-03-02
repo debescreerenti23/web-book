@@ -187,7 +187,7 @@ body {
 /* ==========================================
    BOTÓN "EMPEZAR A LEER" (PORTADA)
    ========================================== */
-#boton-empezar {
+#boton-empezar, .btn-siguiente {
     background: #d84315; /* Naranja rojizo para que resalte */
     color: white;
     border: none;
@@ -203,13 +203,13 @@ body {
     letter-spacing: 1px;
 }
 
-#boton-empezar:hover {
+#boton-empezar:hover, .btn-siguiente {
     background: #ff5722;
     transform: translateY(-3px);
     box-shadow: 0 9px 0px #872a0f;
 }
 
-#boton-empezar:active {
+#boton-empezar:active, .btn-siguiente {
     transform: translateY(4px);
     box-shadow: 0 2px 0px #872a0f; /* Efecto de "botón pulsado" */
 }
