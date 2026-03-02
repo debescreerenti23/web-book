@@ -567,7 +567,150 @@ Reacción en cadena: 1. Nala pasó de Modo Ardilla a Modo Invisible (se fundió 
 3. Dana, la más lista, simplemente se dio la vuelta y se fue hacia su cama como si fuera sonámbula, fingiendo que ella no formaba parte de esa banda de delincuentes.
 
 El jamón se quedó en la encimera, pero Chop juró que esa noche soñaría con el Seat Ibiza conduciendo directamente hacia una fábrica de embutidos.`
+    },
+    {
+        id: 11,
+        titulo: "El Tsunami del Jardín y el Secado a 80 km/h 🧼",
+        personajePrincipal: "Todos",
+        imagen: "ruta/de/tu/imagen1.jpg", // Cambia esto por el nombre de tu archivo
+        texto: `Todo empezó con un error de cálculo de Chop. Los humanos habían dejado la manguera abierta para regar las plantas y Chop, viendo el chorro de agua, pensó que era una especie de "salchicha líquida" que podía morder.
+
+—¡Es inatrapable! —ladró Chop, dando saltos mientras el agua le empapaba las orejas—. ¡Nala, ven a ayudarme a acorralar a esta serpiente transparente!
+
+Nala, que estaba en Modo Cobaya tomando el sol sobre una piedra, cometió el error de acercarse por curiosidad. En un giro inesperado, Chop agarró la manguera con la boca y, al sacudir la cabeza con alegría, lanzó un chorro directo al lomo de la gatita.
+
+[ 🙀 NALA: MODO HIDROFOBIA EXTREMA ]
+En menos de un segundo, Nala se convirtió en una bola de pinchos mojada que escaló la espalda de Chop, llegó al techo del Seat Ibiza y terminó colgada de un tendedero de ropa. Sus maullidos se oían en tres barrios a la redonda.
+
+Dana, que estaba en su rincón de siempre intentando dormir una siesta de tres horas, recibió un salpicón en toda la cara. Se levantó despacio, sacudiéndose como un ventilador averiado.
+
+—¿Es que no se puede ser una perra anciana y seca en esta casa? —gruñó Dana, mirando con sus ojos nublados hacia donde creía que estaba el caos—. Chop, tienes olor a perro mojado. Nala, pareces una rata empapada. Dais lástima.
+
+Para arreglar el desastre antes de que los humanos los vieran, Chop tuvo una idea brillante: el secado por aire forzado.
+
+—¡Rápido, al coche! —ordenó Chop.
+
+Lograron entrar en el Seat Ibiza (que seguía con las ventanillas bajadas). Chop puso las patas en el volante y, aunque el coche estaba apagado, él hacía ruidos de motor con la garganta mientras el viento que soplaba en el jardín ayudaba un poco. Nala se puso frente a las rejillas del aire acondicionado (apagadas, por supuesto) esperando un milagro.
+
+Al final, la humana los encontró a los tres dentro del coche: Chop con la lengua fuera, Nala todavía erizada y Dana roncando en el asiento de atrás, resignada a que sus últimos años de vida estuvieran rodeados de locos.
+
+[ 🧴 ESTADO ACTUAL: LIGERAMENTE HÚMEDOS PERO DIGNOS ]`
+    },
+    {
+        id: 12,
+        titulo: "El Parking del Salón 🚗🏠",
+        personajePrincipal: "Todos",
+        imagen: "ruta/de/tu/imagen1.jpg", // Cambia esto por el nombre de tu archivo
+        texto: `Chop estaba convencido de que el coche dormía fuera por puro descuido de los humanos. "¿Por qué el Seat tiene que pasar frío en la calle mientras nosotros tenemos una alfombra mullida?", pensaba mientras abría el portal con el mando a distancia que llevaba colgado del collar.
+
+[ 🚨 CHOP: MODO CHOFER DE ÉLITE ]
+
+—¡Nala! ¡Quita los cojines del sofá! ¡Voy a meter el Ibiza en paralelo junto a la tele! —ladró Chop con autoridad.
+
+Nala pasó de estar dormida a su Modo Ardilla en un microsegundo. Empezó a correr por las paredes, quitando marcos de fotos y plantas con la cola para "despejar la pista". Estaba tan emocionada que parecía un rayo gris rebotando en el techo.
+
+Dana, que estaba profundamente dormida en su cama, abrió un ojo (el que mejor le funcionaba) y vio el morro del coche asomando por la puerta del salón. Chop estaba empujando con el pecho, aprovechando que el freno de mano no estaba puesto del todo.
+
+—Chop... —gruñó Dana sin levantarse—. Si ese coche toca la alfombra de la entrada, la humana va a convertir tu correa en un adorno de pared. Además, el Ibiza no cabe entre el aparador y el árbol de Navidad.
+
+—¡Caben tres como este si nos organizamos! —respondió Chop, jadeando de esfuerzo—. ¡Nala, dame indicaciones!
+
+Nala se puso en medio del salón y empezó a hacer gestos frenéticos con las patas delanteras.
+
+[ 🐿️ NALA: MODO APARCADORA DE AVIONES ]
+
+El desastre fue inminente. El retrovisor izquierdo rozó el paragüero y el ruido fue como una campana de iglesia. Los tres se quedaron congelados. Segundos después, se oyeron pasos bajando las escaleras.
+
+Resultado: Chop se sentó rápidamente frente al volante con cara de "estoy vigilando que no lo roben", Nala se escondió dentro del coche y Dana, la más veterana, cerró los ojos y empezó a roncar tan fuerte que parecía que el motor del Ibiza seguía encendido.`
+    },
+    {
+        id: 13,
+        titulo: "La Gran Fiesta de la Salchicha (Misión: Buffet Libre) 🌭🎉",
+        personajePrincipal: "Todos",
+        imagen: "ruta/de/tu/imagen1.jpg", // Cambia esto por el nombre de tu archivo
+        texto: `La casa estaba inusualmente silenciosa. Los humanos se habían ido a una boda, lo que significaba dos cosas: ropa elegante fuera de casa y, lo más importante, una nevera mal cerrada.
+
+Chop no necesitó ladrar. Solo se puso en medio del pasillo y levantó una oreja. Era la señal.
+
+[ 🚨 CHOP: MODO COMANDANTE DE ARTILLERÍA ]
+
+—Escuchadme bien —dijo Chop con voz solemne—. En el segundo estante, detrás de la lechuga (ese arbusto inútil), hay un paquete de tres kilos de salchichas tipo Frankfurt. Nala, tú eres la escaladora. Dana, tú eres la retaguardia.
+
+Nala no esperó a que terminara. En un parpadeo, pasó a Modo Ardilla Nivel Galáctico. Corrió por el lateral de la nevera usando los imanes de "Recuerdo de Benidorm" como escalones y, con un hábil giro de garra, venció la resistencia de la puerta magnética.
+
+—¡OBJETIVO A LA VISTA! —maulló Nala desde las alturas—. ¡Es rosado! ¡Es brillante! ¡Es el paraíso!
+
+Con un empujón coordinado, el paquete de salchichas cayó al vacío. Chop lo atrapó al vuelo como si fuera un frisbi de oro. Pero había un problema: el plástico era resistente. Aquí es donde entró la experiencia.
+
+Dana se acercó despacio, olfateando el botín con sus ojos nublados pero una puntería ancestral.
+
+[ 💤 DANA: MODO CIRUJANA VETERANA ] > Con un solo mordisco preciso de sus muelas de atrás (las que todavía cortaban como tijeras), rasgó el envoltorio.
+
+Fue el caos más hermoso de la historia. Las salchichas rodaron por el suelo de la cocina como pequeños tesoros. Chop engullía de dos en dos, Nala jugaba al hockey con una antes de devorarla, y Dana disfrutaba de su botín tumbada cómodamente, masticando con la elegancia de una reina.
+
+—Esto... —dijo Chop con la boca llena— es mejor que conducir el Seat Ibiza por la autopista.
+
+De repente, Nala se detuvo. Sus orejas giraron 180 grados.
+
+[ 🐿️ NALA: MODO RADAR ACTIVADO ]
+
+—¡COCHE EN EL CAMINO! ¡LOS HUMANOS HAN VUELTO! —gritó Nala.
+
+Lo que siguió fue una limpieza digna de una película de espías. Chop lamió el suelo hasta que brilló más que cuando lo enceran. Nala escondió los plásticos debajo de la nevera de un zarpazo. Y Dana... bueno, Dana se limitó a quedarse dormida encima de la última salchicha para ocultarla con su cuerpo.
+
+Cuando la humana entró, solo vio a tres animalitos angelicales durmiendo la siesta. Eso sí, Chop no pudo evitar un pequeño hipo con olor a ahumado que delató la mejor noche de sus vidas.`
+    },
+    {
+        id: 14,
+        titulo: "El Misterio del Túnel de Cristal (Parte 1)",
+        personajePrincipal: "Todos",
+        imagen: "ruta/de/tu/imagen1.jpg", // Cambia esto por el nombre de tu archivo
+        texto: `El sol de la tarde brillaba sobre la carrocería del Seat Ibiza. Chop estaba sentado en el asiento del conductor con una expresión de extrema concentración. Había oído a los humanos decir la palabra prohibida: "Toca lavar el coche".
+
+—¡Escuchadme bien! —ladró Chop, ajustándose el collar—. Nos dirigimos al Túnel de los Mil Tentáculos. Es un lugar donde el agua sale por todas partes y unos monstruos gigantes de colores giran sin parar.
+
+Nala, que estaba en Modo Cobaya lamiéndose una pata, se detuvo en seco. Sus orejas se giraron como antenas parabólicas.
+
+[ 🙀 NALA: MODO PÁNICO PREVENTIVO ]
+
+—¿Agua? ¿Tentáculos que giran? —maulló Nala, saltando directamente al reposacabezas de Dana—. ¡Chop, da la vuelta! ¡Vuelve al sofá! ¡Es una trampa para gatos!
+
+Dana abrió un ojo, molesta por el peso de Nala en su cabeza. Suspiró con ese sonido profundo de perro viejo que ha visto demasiadas mangueras en su vida.
+
+—Tranquilízate, bola de pelos —gruñó Dana—. Es solo jabón y ruido. Además, Chop tiene razón: el coche huele a la salchicha que escondiste bajo la alfombrilla la semana pasada. Necesitamos un baño... aunque sea de metal.
+
+Chop metió la primera marcha (en su imaginación, claro) mientras los humanos arrancaban de verdad. El Seat Ibiza avanzó hacia la gasolinera. Al fondo, las luces de neón del túnel de lavado brillaban como los ojos de un dragón.
+
+Justo cuando entraban y los rodillos empezaban a girar con un rugido ensordecedor, una luz roja parpadeó en el túlero. El agua empezó a golpear los cristales y, de repente... el motor se detuvo y las luces se apagaron.`
+    },
+    {
+        id: 15,
+        titulo: "Atrapados en la Oscuridad Jabonosa (Parte 2)",
+        personajePrincipal: "Todos",
+        imagen: "ruta/de/tu/imagen1.jpg", // Cambia esto por el nombre de tu archivo
+        texto: `El silencio dentro del coche era absoluto, solo roto por el "shhh" del agua jabonosa que cubría por completo las ventanas. No se veía nada fuera. Estaban enterrados bajo una montaña de espuma blanca.
+
+—¡Estamos atrapados! —chilló Nala.
+
+[ 🐿️ NALA: MODO ARDILLA NINJA ENJAULADA ] > Empezó a correr por el techo del coche, de un cristal a otro, intentando encontrar una salida entre la espuma. Parecía un pequeño fantasma gris rebotando en una pecera.
+
+Chop intentó mantener la calma. Puso las patas sobre el claxon (aunque no sonó) y miró fijamente a través del parabrisas cubierto de burbujas.
+
+—¡Mantened la formación! —ordenó Chop—. Dana, ¿ves algo con tu visión de rayos-X?
+
+Dana se levantó despacio. Olfateó el aire que entraba por las rejillas de ventilación. Su nariz nunca fallaba, ni siquiera cuando sus ojos sí.
+
+—Huelo a algo más que jabón, Chop —dijo Dana con voz grave, erizando el lomo—. Huelo a... atún. Alguien o algo está fuera del coche, moviéndose entre los rodillos.
+
+De repente, un golpe seco sonó en el techo del Seat Ibiza. ¡PUM! Luego un arañazo metálico. Los tres miraron hacia arriba. Una sombra alargada se dibujó a través de la espuma del techo solar. No era un humano, y definitivamente no era parte del autolavado.
+
+Nala se quedó congelada en medio de un salto. Chop enseñó los dientes por primera vez en toda la excursión. Dana se puso en posición de defensa frente a la puerta trasera.
+
+Una garra oscura empezó a limpiar la espuma del cristal desde fuera, revelando un ojo amarillo que los miraba con curiosidad...
+
+CONTINUARÁ...`
     }
+
 ];
 
 // ==========================================
