@@ -1,16 +1,224 @@
 :root {
-    --color-papel: #fffdf5;
-    --color-texto: #4e342e; 
-    --fuente-titulo: 'Short Stack', cursive; --fuente-cuerpo: 'Patrick Hand', cursive; }
-     /* ========================================== BASES Y FONDO ========================================== */ 
-     body { 
-        background-color: #e0d7c6; 
-        background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); 
-        font-family: var(--fuente-cuerpo); 
-        color: var(--color-texto); 
-        line-height: 1.6; 
-        margin: 0; 
-        padding: 0; 
-        overflow-x: hidden; /* Evita que la web "baile" hacia los lados */ 
-    } /* ========================================== PORTADA (SCREEN DE BIENVENIDA) ========================================== */ 
-    #portada-libro { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background-color: #fdf5e6; background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); display: flex; justify-content: center; align-items: center; z-index: 1000; transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s; } .contenedor-portada { display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 90%; } #imagen-portada { width: 350px; max-width: 85vw; height: auto; border-radius: 15px; box-shadow: 10px 10px 30px rgba(78, 52, 46, 0.2); border: 8px solid white; border-left: 15px solid rgba(0,0,0,0.1); margin-bottom: 20px; } .contenedor-portada h1 { font-family: var(--fuente-titulo); font-size: clamp(2rem, 8vw, 3.5rem); /* Tamaño fluido: se adapta solo */ margin: 10px 0; color: var(--color-texto); } .ocultar-portada { transform: translateY(-100%); opacity: 0; pointer-events: none; } /* ========================================== CONTENEDOR DEL LIBRO (PÁGINA) ========================================== */ #lector-libro { background: var(--color-papel); width: 90%; /* En móviles ocupa casi todo el ancho */ max-width: 700px; margin: 20px auto; padding: clamp(20px, 5vw, 50px); /* Padding más pequeño en móviles */ border-radius: 20px; /* Simplificado para mejor rendimiento móvil */ border: 2px solid #dcd0b9; box-shadow: 10px 10px 0px rgba(0,0,0,0.05); position: relative; box-sizing: border-box; /* Crucial para que el padding no rompa el ancho */ } .texto-relato { font-size: clamp(1.1rem, 4vw, 1.4rem); text-align: justify; } .texto-relato::first-letter { font-family: var(--fuente-titulo); font-size: 3.5rem; float: left; margin-right: 10px; color: #d84315; line-height: 1; } /* ========================================== MENÚ DE CAPÍTULOS (BOTONES) ========================================== */ #menu-capitulos { text-align: center; padding: 10px; } #menu-capitulos button { background: #ffcc80; border: none; padding: 12px 18px; /* Un poco más grandes para dedos en móvil */ margin: 5px; font-family: var(--fuente-titulo); cursor: pointer; border-radius: 15px; /* Más estable que el 50% para móvil */ box-shadow: 2px 2px 0px #e6a345; transition: all 0.2s; } #menu-capitulos button:hover { transform: scale(1.05); background: #ffb74d; } /* ========================================== SECCIÓN PERSONAJES (TARJETAS) ========================================== */ #indice-personajes { width: 95%; max-width: 1000px; margin: 50px auto; text-align: center; } .contenedor-fichas { display: flex; justify-content: center; flex-wrap: wrap; /* Las tarjetas bajan si no caben */ gap: 25px; } .ficha { background: white; width: 260px; /* Tamaño ideal para móvil y PC */ padding: 20px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.08); border: 3px solid #ffcc80; transition: transform 0.3s; box-sizing: border-box; } .foto-real { width: 100%; aspect-ratio: 4/3; background-size: cover; background-position: center; border-radius: 12px; margin-bottom: 15px; border: 2px solid #e0d7c6; } /* ========================================== ADAPTACIÓN ESPECÍFICA (MEDIA QUERIES) ========================================== */ @media (max-width: 600px) { #lector-libro { padding: 25px 15px; width: 95%; margin-top: 10px; } h2 { font-size: 1.8rem; } .contenedor-portada p { font-size: 1.2rem; } /* En móvil, las tarjetas ocupan casi todo el ancho */ .ficha { width: 90%; } } /* ========================================== BOTÓN "EMPEZAR A LEER" (PORTADA) ========================================== */ #boton-empezar, .btn-siguiente { background: #d84315; /* Naranja rojizo para que resalte */ color: white; border: none; padding: clamp(15px, 4vw, 20px) clamp(30px, 8vw, 50px); /* Tamaño fluido */ font-family: var(--fuente-titulo); font-size: clamp(1.2rem, 5vw, 1.8rem); border-radius: 50px; cursor: pointer; box-shadow: 0 6px 0px #872a0f; /* Sombra sólida para efecto 3D */ transition: all 0.2s ease; margin-top: 30px; text-transform: uppercase; letter-spacing: 1px; } #boton-empezar:hover, .btn-siguiente { background: #ff5722; transform: translateY(-3px); box-shadow: 0 9px 0px #872a0f; } #boton-empezar:active, .btn-siguiente { transform: translateY(4px); box-shadow: 0 2px 0px #872a0f; /* Efecto de "botón pulsado" */ }
+    /* Variables globales reutilizables en todo el CSS */
+    --color-papel: #fffdf5; /* Color principal del fondo tipo papel */
+    --color-texto: #4e342e; /* Color marrón oscuro para el texto */
+    --fuente-titulo: 'Short Stack', cursive; /* Fuente decorativa para títulos */
+    --fuente-cuerpo: 'Patrick Hand', cursive; /* Fuente principal del contenido */
+}
+
+/* ==========================================
+   BASES Y FONDO
+   ========================================== */
+
+body {
+    background-color: #e0d7c6; /* Color base beige */
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* Textura de papel encima del color */
+    font-family: var(--fuente-cuerpo); /* Aplica la fuente principal */
+    color: var(--color-texto); /* Color del texto por defecto */
+    line-height: 1.6; /* Espaciado vertical entre líneas */
+    margin: 0; /* Elimina margen por defecto del navegador */
+    padding: 0; /* Elimina padding por defecto */
+    overflow-x: hidden; /* Evita desplazamiento horizontal accidental */
+}
+
+/* ==========================================
+   PORTADA (SCREEN DE BIENVENIDA)
+   ========================================== */
+
+#portada-libro {
+    position: fixed; /* Se mantiene fija sobre toda la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho */
+    height: 100vh; /* Ocupa toda la altura visible */
+    background-color: #fdf5e6; /* Fondo beige claro */
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* Textura encima */
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    z-index: 1000; /* Se asegura de estar por encima del resto */
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s; /* Animación suave al ocultarse */
+}
+
+.contenedor-portada {
+    display: flex; /* Flexbox para organizar contenido interno */
+    flex-direction: column; /* Elementos en columna */
+    align-items: center; /* Centrado horizontal */
+    text-align: center; /* Texto centrado */
+    max-width: 90%; /* Evita que el contenido se desborde */
+}
+
+#imagen-portada {
+    width: 350px; /* Tamaño base */
+    max-width: 85vw; /* No supera el 85% del ancho en pantallas pequeñas */
+    height: auto; /* Mantiene proporción */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 10px 10px 30px rgba(78, 52, 46, 0.2); /* Sombra suave */
+    border: 8px solid white; /* Marco blanco */
+    border-left: 15px solid rgba(0,0,0,0.1); /* Simula lomo de libro */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.contenedor-portada h1 {
+    font-family: var(--fuente-titulo); /* Fuente decorativa */
+    font-size: clamp(2rem, 8vw, 3.5rem); /* Tamaño adaptable según pantalla */
+    margin: 10px 0; /* Espaciado arriba y abajo */
+    color: var(--color-texto); /* Color del texto */
+}
+
+.ocultar-portada {
+    transform: translateY(-100%); /* Mueve la portada hacia arriba */
+    opacity: 0; /* La hace invisible */
+    pointer-events: none; /* Desactiva clics */
+}
+
+/* ==========================================
+   CONTENEDOR DEL LIBRO (PÁGINA)
+   ========================================== */
+
+#lector-libro {
+    background: var(--color-papel); /* Fondo color papel */
+    width: 90%; /* Ocupa casi todo en móvil */
+    max-width: 700px; /* Límite en pantallas grandes */
+    margin: 20px auto; /* Centrado horizontal */
+    padding: clamp(20px, 5vw, 50px); /* Padding adaptable */
+    border-radius: 20px; /* Bordes redondeados */
+    border: 2px solid #dcd0b9; /* Borde suave */
+    box-shadow: 10px 10px 0px rgba(0,0,0,0.05); /* Sombra estilo ilustrado */
+    position: relative; /* Permite posicionamiento interno */
+    box-sizing: border-box; /* Incluye padding dentro del ancho */
+}
+
+.texto-relato {
+    font-size: clamp(1.1rem, 4vw, 1.4rem); /* Tamaño adaptable */
+    text-align: justify; /* Texto justificado */
+}
+
+.texto-relato::first-letter {
+    font-family: var(--fuente-titulo); /* Fuente especial */
+    font-size: 3.5rem; /* Letra grande inicial */
+    float: left; /* Flota a la izquierda */
+    margin-right: 10px; /* Espacio a la derecha */
+    color: #d84315; /* Color destacado */
+    line-height: 1; /* Ajuste vertical */
+}
+
+/* ==========================================
+   MENÚ DE CAPÍTULOS (BOTONES)
+   ========================================== */
+
+#menu-capitulos {
+    text-align: center; /* Centra botones */
+    padding: 10px; /* Espaciado interno */
+}
+
+#menu-capitulos button {
+    background: #ffcc80; /* Fondo naranja claro */
+    border: none; /* Sin borde */
+    padding: 12px 18px; /* Espaciado interno cómodo */
+    margin: 5px; /* Separación entre botones */
+    font-family: var(--fuente-titulo); /* Fuente decorativa */
+    cursor: pointer; /* Cursor tipo botón */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 2px 2px 0px #e6a345; /* Sombra estilo dibujo */
+    transition: all 0.2s; /* Animación suave */
+}
+
+#menu-capitulos button:hover {
+    transform: scale(1.05); /* Ligero zoom */
+    background: #ffb74d; /* Color más intenso */
+}
+
+/* ==========================================
+   SECCIÓN PERSONAJES (TARJETAS)
+   ========================================== */
+
+#indice-personajes {
+    width: 95%; /* Casi todo el ancho */
+    max-width: 1000px; /* Límite máximo */
+    margin: 50px auto; /* Centrado */
+    text-align: center; /* Texto centrado */
+}
+
+.contenedor-fichas {
+    display: flex; /* Flexbox */
+    justify-content: center; /* Centrado horizontal */
+    flex-wrap: wrap; /* Baja tarjetas si no caben */
+    gap: 25px; /* Espacio entre tarjetas */
+}
+
+.ficha {
+    background: white; /* Fondo blanco */
+    width: 260px; /* Tamaño fijo ideal */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08); /* Sombra suave */
+    border: 3px solid #ffcc80; /* Borde decorativo */
+    transition: transform 0.3s; /* Animación */
+    box-sizing: border-box; /* Control de tamaño */
+}
+
+.foto-real {
+    width: 100%; /* Ocupa todo el ancho */
+    aspect-ratio: 4/3; /* Proporción fija */
+    background-size: cover; /* La imagen cubre el contenedor */
+    background-position: center; /* Centrada */
+    border-radius: 12px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Espacio inferior */
+    border: 2px solid #e0d7c6; /* Marco suave */
+}
+
+/* ==========================================
+   ADAPTACIÓN ESPECÍFICA (MEDIA QUERIES)
+   ========================================== */
+
+@media (max-width: 600px) {
+    #lector-libro {
+        padding: 25px 15px; /* Padding reducido */
+        width: 95%; /* Más ancho en móvil */
+        margin-top: 10px; /* Menos margen superior */
+    }
+
+    h2 {
+        font-size: 1.8rem; /* Títulos más pequeños */
+    }
+
+    .contenedor-portada p {
+        font-size: 1.2rem; /* Texto más legible */
+    }
+
+    .ficha {
+        width: 90%; /* Tarjetas casi pantalla completa */
+    }
+}
+
+/* ==========================================
+   BOTÓN "EMPEZAR A LEER" (PORTADA)
+   ========================================== */
+
+#boton-empezar, .btn-siguiente {
+    background: #d84315; /* Color principal del botón */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: clamp(15px, 4vw, 20px) clamp(30px, 8vw, 50px); /* Tamaño adaptable */
+    font-family: var(--fuente-titulo); /* Fuente decorativa */
+    font-size: clamp(1.2rem, 5vw, 1.8rem); /* Tamaño adaptable */
+    border-radius: 50px; /* Forma tipo píldora */
+    cursor: pointer; /* Cursor interactivo */
+    box-shadow: 0 6px 0px #872a0f; /* Sombra efecto 3D */
+    transition: all 0.2s ease; /* Animación suave */
+    margin-top: 30px; /* Separación superior */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 1px; /* Espaciado entre letras */
+}
+
+#boton-empezar:hover, .btn-siguiente {
+    background: #ff5722; /* Color más brillante */
+    transform: translateY(-3px); /* Se eleva */
+    box-shadow: 0 9px 0px #872a0f; /* Sombra más profunda */
+}
+
+#boton-empezar:active, .btn-siguiente {
+    transform: translateY(4px); /* Baja al presionar */
+    box-shadow: 0 2px 0px #872a0f; /* Sombra comprimida */
+}
